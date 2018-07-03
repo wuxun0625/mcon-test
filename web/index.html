@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MCON-TEST</title>
+</head>
+
+<body>
+  <div id="vue_root" style="min-height: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"
+         href="#">MCON-TEST</a>
+    </nav>
+
+    <div class="container content-div">
+      <list-view v-on:click-view-list-content="clickViewListItemsFunc"></list-view>
+    </div>
+
+    <footer class="bg-light">
+      <p>&copy; WuXun 2018</p>
+    </footer>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>

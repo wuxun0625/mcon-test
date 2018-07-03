@@ -1,0 +1,39 @@
+{
+  "name": "mcon-test",
+  "version": "1.0.0",
+  "description": "Test result for MCON",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuxun0625/mcon-test.git"
+  },
+  "keywords": [
+    "MCON"
+  ],
+  "author": "wuxun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuxun0625/mcon-test/issues"
+  },
+  "homepage": "https://github.com/wuxun0625/mcon-test#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "vue": "^2.5.16"
+  }
+}
