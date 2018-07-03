@@ -15,7 +15,8 @@
     </nav>
 
     <div class="container content-div">
-      <list-view v-on:click-view-list-content="clickViewListItemsFunc"></list-view>
+      <list-view v-on:click-view-list-content="clickViewListItemsFunc"
+                 v-bind:data="listViewData"></list-view>
     </div>
 
     <footer class="bg-light">
