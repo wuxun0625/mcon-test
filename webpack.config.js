@@ -28,7 +28,11 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader'
-      }
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)\w*/,
+        loader: 'url-loader?limit=1000000'
+      },
     ]
   },
   devServer: {
@@ -41,6 +45,6 @@ module.exports = {
     new webpack.ProvidePlugin({
       jQuery: "jquery",
       $: "jquery"
-  })
+    })
   ]
 }
