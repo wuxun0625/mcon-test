@@ -41,6 +41,7 @@
 import $ from "jquery";
 
 export default {
+  name:'listView',
   data() {
     return {
       //Variable to store current expended bio area DOM object

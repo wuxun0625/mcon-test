@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wuxun0625/mcon-test#readme",
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.20",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
     "raw-loader": "^0.5.1",
