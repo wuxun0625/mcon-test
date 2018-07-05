@@ -19,5 +19,5 @@ mcon-test
 
 ### <b>2.How to run mcon-test and UT script</b>
 　2.1.Run mcon-test:<br>
-　　*Run with dev server:
-　　 `git clone https://github.com/wuxun0625/mcon-test.git`<br>
+　　*　Run with dev server:<br>
+　　 `npm run server`<br>
