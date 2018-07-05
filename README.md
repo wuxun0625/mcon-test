@@ -35,4 +35,4 @@ mcon-test
 　JS Framework: `VUE.js`<br>
 　CSS Framework: `Bootstrap`<br>
 　Build Tool: `Webpack`<br>
-　UT Framework: `Qunit`<br>
+　UT Framework: `Qunit and @vue/test-utils`<br>
