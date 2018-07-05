@@ -29,3 +29,9 @@ mcon-test
 　2.2.Run mcon-test UT script:<br>
 　　`Execute following html file on your browser:`<br>
 　　`　Your_git_workspace/mcon-test/unitTest/MCON_TEST_UT.html`<br>
+
+### <b>3.Introduction about my test result</b><br>
+　JS Framework: VUE.js<br>
+　CSS Framework: Bootstrap<br>
+　Build Tool: Webpack<br>
+　UT Framework: Qunit<br>
