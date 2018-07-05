@@ -1,11 +1,12 @@
-var webpack = require('webpack');
+var webpack = require('webpack')
+var path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
 module.exports = {
   mode: 'development',
-  entry: __dirname + "/spec/viewListSpec.js",
+  entry: path.join(__dirname, '/spec/viewListSpec.js'),
   output: {
-    path: __dirname + "/spec",
-    filename: "bundleUT.js"
+    path: path.join(__dirname, '/spec'),
+    filename: 'bundleUT.js'
   },
   module: {
     rules: [
@@ -13,9 +14,9 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: "style-loader"
+            loader: 'style-loader'
           }, {
-            loader: "css-loader"
+            loader: 'css-loader'
           }
         ]
       },
@@ -32,14 +33,14 @@ module.exports = {
       {
         test: /\.(eot|svg|ttf|woff|woff2)\w*/,
         loader: 'url-loader?limit=1000000'
-      },
+      }
     ]
   },
   plugins: [
     new VueLoaderPlugin(),
     new webpack.ProvidePlugin({
-      jQuery: "jquery",
-      $: "jquery"
+      jQuery: 'jquery',
+      $: 'jquery'
     })
   ]
 }

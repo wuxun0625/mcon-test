@@ -1,0 +1,15 @@
+{
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "eslint.options": {
+    "plugins": [
+      "html"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue"
+  ]
+}
