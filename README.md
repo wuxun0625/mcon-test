@@ -18,10 +18,14 @@ mcon-test
  　　`npx webpack`<br>
 
 ### <b>2.How to run mcon-test and UT script</b>
-　2.1.Run mcon-test:<br>
+　2.1.Run mcon-test project:<br>
 　　<b>There are 2 ways to run the mcon-test project</b><br>
 　　2.1.1.Run with dev server:<br>
 　　　`npm run server`<br>
 　　2.1.2.Run with html file:<br>
 　　　`Execute following html file on your browser:`<br>
 　　　`　Your_git_workspace/mcon-test/web/index.html`<br>
+
+　2.2.Run mcon-test UT script:<br>
+　　`Execute following html file on your browser:`<br>
+　　`　Your_git_workspace/mcon-test/unitTest/MCON_TEST_UT.html`<br>
