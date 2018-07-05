@@ -23,5 +23,5 @@ mcon-test
 　　2.1.1.Run with dev server:<br>
 　　　`npm run server`<br>
 　　2.1.2.Run with html file:<br>
-　　　`Execute following html file on your browser`<br>
+　　　`Execute following html file on your browser:`<br>
 　　　`　Your_git_workspace/mcon-test/web/index.html`<br>
