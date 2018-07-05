@@ -9,3 +9,12 @@ mcon-test
 
 　1.3.Run npm install command:<br>
  　　`npm install`<br>
+
+　1.4.Build mcon-test project:<br>
+ 　　`npm run start`<br>
+
+　1.5.Build mcon-test UT script:<br>
+ 　　`cd Your_git_workspace/mcon-test/unitTest`<br>
+ 　　`npx webpack`<br>
+
+### <b>2.How to run mcon-test and UT script</b>
