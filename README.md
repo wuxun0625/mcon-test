@@ -31,7 +31,7 @@ mcon-test
 　　`　Your_git_workspace/mcon-test/unitTest/MCON_TEST_UT.html`<br>
 
 ### <b>3.Introduction about my test result</b><br>
-　JS Framework: VUE.js<br>
-　CSS Framework: Bootstrap<br>
-　Build Tool: Webpack<br>
-　UT Framework: Qunit<br>
+　JS Framework: `VUE.js`<br>
+　CSS Framework: `Bootstrap`<br>
+　Build Tool: `Webpack`<br>
+　UT Framework: `Qunit`<br>
