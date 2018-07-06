@@ -22,6 +22,7 @@ mcon-test
 　2.1.Run mcon-test project:<br>
 　　<b>There are 2 ways to run the mcon-test project</b><br>
 　　2.1.1.Run with dev server:<br>
+　　　`cd Your_git_workspace/mcon-test`<br>
 　　　`npm run server`<br>
 　　2.1.2.Run with html file:<br>
 　　　`Execute following html file on your browser:`<br>
